@@ -1,1 +1,8 @@
-OFDM, used in LTE, 5G, and Wi-Fi, offers high spectral efficiency and handles multipath well, but Doppler shift from user mobility causes inter-carrier interference and reduces performance. MATLAB simulations show that QPSK maintains better BER under high Doppler, while 16-QAM and 64-QAM degrade more significantly.
+Orthogonal Frequency Division Multiplexing (OFDM) is widely used in modern wireless systems like LTE, 5G, and Wi-Fi due to its high spectral efficiency and robustness against multipath fading. However, Doppler shift caused by user mobility introduces Inter-Carrier Interference (ICI), which degrades system performance.
+This project evaluates the effect of Doppler shift on OFDM using different modulation schemes (QPSK, 16-QAM, 64-QAM) under Rayleigh and Rician fading conditions through MATLAB simulations.
+
+Key Finding:
+
+QPSK provides better BER performance in high Doppler environments.
+
+Higher-order modulations (16-QAM, 64-QAM) show more significant performance degradation.
