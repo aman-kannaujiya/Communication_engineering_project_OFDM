@@ -1,0 +1,1 @@
+OFDM, used in LTE, 5G, and Wi-Fi, offers high spectral efficiency and handles multipath well, but Doppler shift from user mobility causes inter-carrier interference and reduces performance. MATLAB simulations show that QPSK maintains better BER under high Doppler, while 16-QAM and 64-QAM degrade more significantly.
